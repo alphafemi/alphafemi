@@ -2,7 +2,7 @@
 
 ## 🌐 Connect With Me 🔐
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/olorunniwo-o)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=plastic&logo=linkedin)](https://linkedin.com/in/olorunniwo-o)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alphafemi-red?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alphafemi)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/alphafemi)
 
