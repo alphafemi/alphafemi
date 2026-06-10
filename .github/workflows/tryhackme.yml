@@ -25,10 +25,4 @@ jobs:
           git add assets/thm_propic.png
           git diff --cached --quiet || git commit -m "Updated TryHackMe Badge"
           git push
-jobs:
-  update-badge:
-    runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # ← add this
-    steps:
-      - uses: actions/checkout@v4
+
