@@ -22,7 +22,7 @@ jobs:
 
       - name: Download TryHackMe Badge
         run: |
-          curl -L -o assets/thm_propic.png "https://tryhackme.com/badge/${{ secrets.THM_USERNAME }}"
+          curl -L -o assets/thm_propic.png "https://tryhackme.com/api/v2/badges/public-profile?userPublicId=${{ secrets.THM_USER_ID }}"
 
       - name: Commit and Push
         run: |
