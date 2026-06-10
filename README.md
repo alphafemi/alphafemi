@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+![TryHackMe Badge](https://raw.githubusercontent.com/Alphafemi/Alphafemi/master/assets/thm_propic.png)
 <!--
 **alphafemi/alphafemi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
