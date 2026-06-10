@@ -1,0 +1,26 @@
+name: Update TryHackMe Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs every day at midnight
+  workflow_dispatch:       # allows manual trigger
+
+jobs:
+  update-badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Update TryHackMe Badge
+        uses: thegamerhat/tryhackme-badge@main
+        with:
+          THM_USERNAME: ${{ secrets.THM_USERNAME }}
+          image_path: assets/thm_propic.png
+
+      - name: Commit and Push
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add assets/thm_propic.png
+          git diff --cached --quiet || git commit -m "Updated TryHackMe Badge"
+          git push
