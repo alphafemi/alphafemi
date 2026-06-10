@@ -4,6 +4,12 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-olorunniwo-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/olorunniwo-o)
 
+## 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/olorunniwo-o)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-Alphafemi-green?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alphafemi)
+[![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/alphafemi)
+
 <!--
 **alphafemi/alphafemi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
