@@ -2,7 +2,7 @@
 ## 🔐 TryHackMe
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alphafemi-green?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alphafemi)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alphafemi-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/olorunniwo-o)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-olorunniwo-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/olorunniwo-o)
 
 <!--
 **alphafemi/alphafemi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
