@@ -9,7 +9,7 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
-  contents: write        # ← add this block
+  contents: write
 
 jobs:
   update-badge:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Download TryHackMe Badge
         run: |
-          curl -o assets/thm_propic.png "https://tryhackme-badges.s3.amazonaws.com/${{ secrets.THM_USERNAME }}.png"
+          curl -L -o assets/thm_propic.png "https://tryhackme.com/badge/${{ secrets.THM_USERNAME }}"
 
       - name: Commit and Push
         run: |
