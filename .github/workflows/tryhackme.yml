@@ -9,13 +9,14 @@ jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Update TryHackMe Badge
-        uses: thegamerhat/tryhackme-badge@main
-        with:
-          THM_USERNAME: ${{ secrets.THM_USERNAME }}
-          image_path: assets/thm_propic.png
+      - name: Create assets folder
+        run: mkdir -p assets
+
+      - name: Download TryHackMe Badge
+        run: |
+          curl -o assets/thm_propic.png "https://tryhackme-badges.s3.amazonaws.com/${{ secrets.THM_USERNAME }}.png"
 
       - name: Commit and Push
         run: |
