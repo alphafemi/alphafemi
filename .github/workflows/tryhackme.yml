@@ -2,14 +2,17 @@ name: Update TryHackMe Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # runs every day at midnight
-  workflow_dispatch:       # allows manual trigger
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # ← silences the warning
 
 jobs:
   update-badge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4  # ← updated from v3 to v4
+      - uses: actions/checkout@v4
 
       - name: Create assets folder
         run: mkdir -p assets
@@ -25,4 +28,3 @@ jobs:
           git add assets/thm_propic.png
           git diff --cached --quiet || git commit -m "Updated TryHackMe Badge"
           git push
-
